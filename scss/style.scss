@@ -1,0 +1,60 @@
+@import "normalize";
+
+$light: #a2ab94;
+$dark: #343631;
+
+body {
+  box-sizing: border-box;
+  background: #e0e5b6;
+  font-family: 'Cutive Mono', monospace;
+}
+
+h1 {
+  color: $dark;
+  margin: 0;
+  text-align: center;
+}
+ 
+h2 {
+  font-size: 12px;
+  text-align: center;
+  color: $light;
+}
+
+h3 {
+  text-align: center;
+}
+
+.terranium {
+  width: 100%;
+  display: flex;
+  padding-left: 4%;
+  justify-content: space-around;
+}
+
+.terranium img {
+  // width: 25%; looks nice... like icons
+  width: 100%;
+}
+
+.terranium img:hover {
+  cursor: pointer;
+}
+
+.soil {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 15%;
+  margin: 0;
+}
+
+main p {
+  text-align: center;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
