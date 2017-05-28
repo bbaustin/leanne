@@ -28,25 +28,41 @@ h3 {
 .terranium {
   width: 100%;
   display: flex;
-  padding-left: 4%;
   justify-content: space-around;
+  flex-direction: row;
 }
 
-.terranium img {
-  // width: 25%; looks nice... like icons
+.terranium ul li a img {
   width: 100%;
 }
 
-.terranium img:hover {
-  cursor: pointer;
+.terranium ul li {
+  float: left;
+  width: 25%;  
+  outline: none;
 }
 
-.soil {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  width: 15%;
-  margin: 0;
+a {
+  text-decoration: none;
+  color: $light;
+  outline: none;
+}
+
+
+// .soil {
+//   display: flex;
+//   flex-direction: column;
+//   flex-wrap: wrap;
+//   width: 15%;
+//   margin: 0;
+// }
+
+// .soil img:hover {
+//   cursor: pointer;
+// }
+
+li {
+  list-style: none;
 }
 
 main p {
@@ -58,3 +74,4 @@ main p {
   display: table;
   clear: both;
 }
+

@@ -10,34 +10,48 @@
   <h1>Leanne Butkovic</h1>
   <h2> editor // nyc </h2>
 
-  <nav class="terranium clearfix">
-   
-    <div class="soil">
-      <img src="img/trop.png">
-      <h3>about</h3>
-    </div>
-    
-    <div class="soil">
-      <img src="img/gren.png">
-      <h3>editing</h3>
-    </div>
+  <div id="tabs">
+    <nav class="terranium clearfix"> 
+      <ul>
+        <li class="soil">
+          <a href="#tabs-1"> 
+            <img src="img/trop.png">
+            <h3>about</h3>
+          </a>
+        </li>
+        
+        <li class="soil">
+          <a href="#tabs-2">
+            <img src="img/gren.png">
+            <h3>editing</h3>
+          </a>
+        </li>
 
-    <div class="soil">
-      <img src="img/mush.png">
-      <h3>writing</h3>
-    </div>
-    
-    <div class="soil">
-      <img src="img/fern.png">
-      <h3>contact</h3>
-    </div>
+        <li class="soil">
+          <a href="#tabs-3">
+            <img src="img/mush.png">
+            <h3>writing</h3>
+          </a>
+        </li>
+        
+        <li class="soil">
+          <a href="#tabs-4">
+            <img src="img/fern.png">
+            <h3>contact</h3>
+          </a>
+        </li>
 
-  </nav>
+      </ul>
+    </nav>
 
-  <main> 
-    <p>Leanne Butkovic is an editor in New York City. </p>
-  </main>
+    <main> 
+      <p id="tabs-1">Leanne Butkovic is an editor in New York City. </p>
+      <p id="tabs-2">Her writing samples are available here. </p>
+      <p id="tabs-3">Her editing samples are available here. </p>
+      <p id="tabs-4">She can be contacted here. </p>
+    </main>
 
+  </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script
   src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"

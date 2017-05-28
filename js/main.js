@@ -20,3 +20,9 @@ function changeBack(input) {
       both = beg + end;
   return both;
 }
+
+/////////////////////////////
+
+$( function() {
+    $( "#tabs" ).tabs();
+  } );
