@@ -24,5 +24,5 @@ function changeBack(input) {
 /////////////////////////////
 
 $( function() {
-    $( "#tabs" ).tabs();
+    $("#tabs").tabs();
   } );
