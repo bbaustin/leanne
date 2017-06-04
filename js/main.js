@@ -24,5 +24,17 @@ function changeBack(input) {
 /////////////////////////////
 
 $( function() {
-    $("#tabs").tabs();
-  } );
+    $("#tabs").tabs({
+      active: 0
+    });
+  });
+
+/////////////////////////////
+
+// function underline() {
+//   if ($('li').hasClass('ui-tabs-active')) {
+//     console.log('hi');
+//   }
+// }
+
+// underline();
